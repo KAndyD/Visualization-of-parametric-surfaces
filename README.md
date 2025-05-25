@@ -62,7 +62,7 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 - `sys`, `datetime` — вспомогательные модули.
 
 **Ключевые модули:**
-- `seashell_surface`, `mobius_surface`, `torus_surface`, `spiral_surface`, `helical_surface`
+- **Генерация поверхностей** - `seashell_surface`, `mobius_surface`, `torus_surface`, `spiral_surface`, `helical_surface`
   ```python
   def mobius_surface(u, v, alpha, beta):
       u_rad = np.radians(u)
