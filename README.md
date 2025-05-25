@@ -63,6 +63,7 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 
 **Ключевые модули:**
 - **Генерация поверхностей** - `seashell_surface`, `mobius_surface`, `torus_surface`, `spiral_surface`, `helical_surface`
+- Каждая функция принимает параметры _u_, _v_, _alpha_, _beta_ и возвращает координаты точки _(x, y, z)_ в 3D-пространстве.
   ```python
   def mobius_surface(u, v, alpha, beta):
       u_rad = np.radians(u)
