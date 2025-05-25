@@ -127,6 +127,7 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 ### 3.2. Ключевые алгоритмы
 
 #### Сетка
+- Использует `np.linspace` для равномерного разбиения параметров u и v
 ```python
 u_range = np.linspace(0, 2 * np.pi, res_u)
 v_range = np.linspace(0, 2 * np.pi, res_v)
