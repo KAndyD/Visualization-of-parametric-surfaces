@@ -162,18 +162,16 @@ x_proj = (d * x / z) * scale + center_x
 
 > **Лента Мёбиуса**  
 > Параметры: Scale=0.8, V-Resolution=88, U-Resolution=84, Detail=0.59 
-> ![mobius_surface](![изображение](https://github.com/user-attachments/assets/f54f90c1-9ab0-403a-9b36-6f34a6728031)
-)
+> ![изображение](https://github.com/user-attachments/assets/f54f90c1-9ab0-403a-9b36-6f34a6728031)
 
 > **Тор**  
 > Параметры: Scale=1.2, V-Resolution=116, U-Resolution=92, Detail=0.43 
-> ![torus_surface](![изображение](https://github.com/user-attachments/assets/d4cb7406-5bea-45d8-a494-a2b02500144e)
-)
+> ![изображение](https://github.com/user-attachments/assets/d4cb7406-5bea-45d8-a494-a2b02500144e)
+
 
 > **Морская раковина**  
 > Параметры: Scale=0.3, V-Resolution=72, U-Resolution=72, Detail=0.06  
-> ![seashell_surface](![изображение](https://github.com/user-attachments/assets/01026a5c-9eb0-4ee6-bd2e-c837810d6cbb)
-)
+> ![изображение](https://github.com/user-attachments/assets/01026a5c-9eb0-4ee6-bd2e-c837810d6cbb)
 
 ### 4.2. Интерактивные возможности
 
