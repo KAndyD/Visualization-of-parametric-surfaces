@@ -23,11 +23,8 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 
 Пример — уравнение морской раковины:
 
-```
-x = α ⋅ e^(βv) ⋅ cos(v) ⋅ (1 + cos(u))  
-y = α ⋅ e^(βv) ⋅ sin(v) ⋅ (1 + cos(u))  
-z = α ⋅ e^(βv) ⋅ sin(u)
-```
+![изображение](https://github.com/user-attachments/assets/bbd19849-a740-4039-8c48-9f680ab5ff66)
+
 
 ### 2.2. Математические основы
 
