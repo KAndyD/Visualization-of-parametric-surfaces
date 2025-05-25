@@ -62,7 +62,8 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 - `sys`, `datetime` — вспомогательные модули.
 
 **Ключевые модули:**
-- **Генерация поверхностей** - `seashell_surface`, `mobius_surface`, `torus_surface`, `spiral_surface`, `helical_surface`
+
+ **Генерация поверхностей** - `seashell_surface`, `mobius_surface`, `torus_surface`, `spiral_surface`, `helical_surface`
 - Каждая функция принимает параметры `u`, `v`, `alpha`, `beta` и возвращает координаты точки `(x, y, z)` в 3D-пространстве:
   ```python
   def mobius_surface(u, v, alpha, beta):
@@ -73,7 +74,7 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
       return x, y, z
   ```
 
-- **Настройка камеры** - `setup_camera`
+  **Настройка камеры** - `setup_camera`
 - Инициализирует позицию камеры в сферических координатах и базисные векторы (`right`, `up`, `forward`):
   ```python
   theta = np.radians(60)
@@ -83,7 +84,7 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
   z_cam = r * np.cos(theta)
   ```
 
-- **Проекция 3D → 2D** - `project_point`
+ **Проекция 3D → 2D** - `project_point`
 - Преобразует мировые координаты в экранные с учётом перспективы:
   ```python
   def project_point(x, y, z, width, height, perspective=True, d=1000):
@@ -98,7 +99,7 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
       return [int(x_proj), int(y_proj), np.sqrt(x_rot**2 + y_rot**2 + z_rot**2)]
   ```
 
-- **Рендеринг поверхности** - `render_surface`
+ **Рендеринг поверхности** - `render_surface`
 - Генерирует сетку точек, проецирует их на экран и рисует полигоны с Z-буферизацией:
   ```python
   polygons = []
@@ -114,10 +115,10 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
   polygons.sort(key=lambda x: -x[0])
   ```
 
-- Графический интерфейс (`draw_control_panel`, `draw_menu_buttons`):
-    Кнопки для выбора поверхности (`surface_button_rects`).
-    Слайдеры параметров (`alpha`, `beta`, `разрешение сетки`).
-    Обработчик событий мыши для интерактивного управления.
+ Графический интерфейс (`draw_control_panel`, `draw_menu_buttons`):
+  - Кнопки для выбора поверхности (`surface_button_rects`).
+  - Слайдеры параметров (`alpha`, `beta`, `разрешение сетки`).
+  - Обработчик событий мыши для интерактивного управления.
 
 ### 3.2. Ключевые алгоритмы
 
