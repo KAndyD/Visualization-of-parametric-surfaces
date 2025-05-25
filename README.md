@@ -32,10 +32,8 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 
 Используется перспективная проекция:
 
-```
-x_proj = (d * x_new / z_new) * scale + center_x  
-y_proj = (-d * y_new / z_new) * scale + center_y
-```
+![изображение](https://github.com/user-attachments/assets/9481a093-f7e2-461a-8b04-c12099f67305)
+
 
 #### Матрицы поворота
 
