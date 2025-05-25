@@ -157,8 +157,8 @@ x_proj = (d * x / z) * scale + center_x
 
 > **Спиральная поверхность**  
 > Параметры: Scale=0.1, V-Resolution=16, U-Resolution=76, Detail=0.13 
-> ![spiral_surface](![изображение](https://github.com/user-attachments/assets/e1e66c4e-8904-4a4e-be06-7c11cdd55241)
-)
+> ![изображение](https://github.com/user-attachments/assets/e1e66c4e-8904-4a4e-be06-7c11cdd55241)
+
 
 > **Лента Мёбиуса**  
 > Параметры: Scale=0.8, V-Resolution=88, U-Resolution=84, Detail=0.59 
