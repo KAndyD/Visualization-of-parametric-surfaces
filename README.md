@@ -39,25 +39,18 @@ F(u,v) = (x(u,v), y(u,v), z(u,v)),  где u ∈ [a, b], v ∈ [c, d]
 
 Поворот вокруг оси X:
 
-```
-Rx(θ) = [[1, 0, 0],
-         [0, cos(θ), -sin(θ)],
-         [0, sin(θ),  cos(θ)]]
-```
+![изображение](https://github.com/user-attachments/assets/368b15bd-0a72-42e4-bc42-e1c1e53888df)
+
 
 Поворот вокруг оси Y:
 
-```
-Ry(ϕ) = [[ cos(ϕ), 0, sin(ϕ)],
-         [     0, 1,     0],
-         [-sin(ϕ), 0, cos(ϕ)]]
-```
+![изображение](https://github.com/user-attachments/assets/f2030e0e-58b8-4789-8a23-bfe13fbcb470)
+
 
 #### Нормализация векторов
 
-```
-v_norm = v / ||v||, где ||v|| = sqrt(vx² + vy² + vz²)
-```
+![изображение](https://github.com/user-attachments/assets/b222e489-e75b-4a8e-9882-3bb1c48d78f1)
+
 
 ## 3. Реализация
 
